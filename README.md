@@ -1,4 +1,3 @@
-##现已支持沪深全市场(包含可转债)Level2逐笔成交行情接入，支持券商低延时交易接口调用。
 
 [level2行情在线测试](http://jvquant.com/websocket.html) http://jvquant.com/websocket.html
 
