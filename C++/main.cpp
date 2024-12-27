@@ -41,8 +41,8 @@ void on_open(client *c, websocketpp::connection_hdl hdl) {
 }
 
 int main(int argc, char *argv[]) {
-    //服务地址
-    std::string wsUrl = "ws://<服务器地址>?token=<jvQuant token>";
+    //服务地址。 注意:C++版本的地址 问号前需加斜杠
+    std::string wsUrl = "ws://<服务器地址>/?token=<jvQuant token>";
 
     client c;
     //连接相关
